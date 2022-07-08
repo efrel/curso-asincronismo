@@ -1,0 +1,76 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Programmer II\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.13.2
+2 info using node@v16.13.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:C:\Users\Programmer II\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:C:\Users\Programmer II\Documents\Project-personal\curso-asincronismo\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:C:\Users\Programmer II\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\Programmer II\AppData\Roaming\npm\etc\npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 2ms
+17 timing config:load:setEnvs Completed in 2ms
+18 timing config:load Completed in 15ms
+19 timing npm:load:configload Completed in 15ms
+20 timing npm:load:mkdirpcache Completed in 3ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm install xmlhttprequest
+23 verbose argv "install" "xmlhttprequest"
+24 timing npm:load:setTitle Completed in 1ms
+25 timing config:load:flatten Completed in 3ms
+26 timing npm:load:display Completed in 4ms
+27 verbose logfile logs-max:10 dir:C:\Users\Programmer II\Documents\Project-personal\curso-asincronismo\tmpnodejsnpm-cache\_logs
+28 verbose logfile C:\Users\Programmer II\Documents\Project-personal\curso-asincronismo\tmpnodejsnpm-cache\_logs\2022-07-08T15_15_04_870Z-debug-0.log
+29 timing npm:load:logFile Completed in 8ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 33ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile done cleaning log files
+35 timing arborist:ctor Completed in 1ms
+36 timing idealTree:init Completed in 12ms
+37 timing idealTree:userRequests Completed in 2ms
+38 silly idealTree buildDeps
+39 silly fetch manifest xmlhttprequest@*
+40 http fetch GET 200 https://registry.npmjs.org/xmlhttprequest 962ms (cache miss)
+41 silly placeDep ROOT xmlhttprequest@1.8.0 OK for: curso-asincronismo@1.0.0 want: *
+42 timing idealTree:#root Completed in 974ms
+43 timing idealTree:node_modules/xmlhttprequest Completed in 0ms
+44 timing idealTree:buildDeps Completed in 976ms
+45 timing idealTree:fixDepFlags Completed in 0ms
+46 timing idealTree Completed in 992ms
+47 timing reify:loadTrees Completed in 992ms
+48 timing reify:diffTrees Completed in 1ms
+49 silly reify moves {}
+50 timing reify:retireShallow Completed in 2ms
+51 timing reify:createSparse Completed in 2ms
+52 timing reify:loadBundles Completed in 0ms
+53 silly audit bulk request { xmlhttprequest: [ '1.8.0' ] }
+54 silly tarball no local data for xmlhttprequest@https://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.8.0.tgz. Extracting by manifest.
+55 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 213ms
+56 timing auditReport:getReport Completed in 216ms
+57 silly audit report {}
+58 timing auditReport:init Completed in 0ms
+59 timing reify:audit Completed in 217ms
+60 http fetch GET 200 https://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.8.0.tgz 204ms (cache miss)
+61 timing reifyNode:node_modules/xmlhttprequest Completed in 212ms
+62 timing reify:unpack Completed in 212ms
+63 timing reify:unretire Completed in 0ms
+64 timing build:queue Completed in 0ms
+65 timing build:deps Completed in 1ms
+66 timing build Completed in 1ms
+67 timing reify:build Completed in 1ms
+68 timing reify:trash Completed in 0ms
+69 timing reify:save Completed in 6ms
+70 timing reify Completed in 1239ms
+71 silly ADD node_modules/xmlhttprequest
+72 timing command:install Completed in 1245ms
+73 verbose exit 0
+74 timing npm Completed in 1423ms
+75 info ok

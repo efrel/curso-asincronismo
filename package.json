@@ -10,5 +10,8 @@
     "javascript"
   ],
   "author": "Efrel López efli95.ealc@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
